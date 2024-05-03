@@ -1,0 +1,111 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h5{
+  color: white;
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: brown;
+  padding: 5%;
+  margin: 0;
+  border-radius: 80px 5px 80px 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: orangered;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(0, 0, 10);
+}
+
+
+
+.booking-form h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.booking-form label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.booking-form input,
+.booking-form select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.booking-form button[type="submit"]:hover {
+	background-color: rgb(47, 247, 7);
+	color: rgb(253, 3, 3);
+}
+
+
+/* Animations */
+
+.animated {
+	animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

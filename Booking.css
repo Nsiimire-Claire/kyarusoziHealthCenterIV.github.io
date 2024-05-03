@@ -1,0 +1,128 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: rgb(103, 109, 108);
+}
+
+
+.book-btn {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+aside {
+	flex-basis: calc(33.33% - 20px);
+	background-color: rgb(199, 190, 190);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.booking-form h2 {
+	font-size: 37px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    color: rgb(19, 97, 128);
+    text-align: center;
+}
+
+.booking-form label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.booking-form input,
+.booking-form select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(114, 3, 3, 0.973);
+    background-color: rgb(252, 250, 248);
+}
+
+.booking-form button[type="submit"] {
+	background-color: rgb(19, 97, 128);
+	color: rgb(255, 254, 254);
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+    
+}
+
+.booking-form button[type="submit"]:hover {
+	background-color: rgb(226, 222, 222);
+	color: rgb(165, 166, 167);
+}
+
+/* Animations */
+.typewriter {
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 5s steps(50, end) infinite;
+	color: rgb(4, 45, 58);
+    text-align: center;
+}
+@keyframes typing {
+	from {width: 0;
+		
+	}
+	to { width: 100%;
+	}
+}
+
+
+.animated {
+	animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

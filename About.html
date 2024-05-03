@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="About.css">
+<link rel="stylesheet" href="Header.css">
+<link rel="stylesheet" href="footer.css">
+
+<style>
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(9, 23, 151);
+  color: rgb(250, 250, 253);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(252, 5, 5);
+}
+
+</style>
+</head>
+
+
+	<header>
+	<div class="logo">
+	<img src="image/mestillogo.png" alt="Hotel Logo">
+	</div>
+	<div class="text-container">
+		<p class="animated-text">'Welcome'</p>
+	  </div>
+	<h1>KYARUSOZI HEALTH CENTER IV</h1>	
+
+	<nav>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">HOME</a>
+			<a href="patient_resources.html" class="active">PATIENT RESOURCES</a>
+			<div class="dropdown">
+			<a href="Ourservice.html" button class="dropbtn" class="active">SERVICES</button></a>
+			  <div class="dropdown-content">
+				<a href="Ourservice.html">SERVICES</a>
+				<a href="#consult">Consultation</a>
+				<a href="#lab">Laboratory</a>
+				<a href="#phamercy">pharmacy</a>
+				<a href="#maternity">Maternity</a>
+				<a href="#emergency">Emergency care</a>
+				<a href="#dental">Dental clinic</a>
+				
+			  </div>
+			  </div>
+				<a href="GALLERY.html">GALLERY</button>
+			  <a href="Contactus.html">CONTANCT US</a>
+			<a href="About.html">ABOUT US</a>
+      
+	<div class="search">
+		<form>
+			<input type="text" placeholder="Search">
+			<button type="submit">Go</button>
+		</form>
+	</div>
+	</div>
+	</div>
+</nav>
+</header>
+
+<body>
+  <div class="container">
+      <div class="about-section">
+          <h1>About Us</h1>
+          <p>INTRODUCTION:<br>
+              Kyarusozi Health Center IV is a government aided health facility located in Kyenjojo District, Kyarusozi Town Council. It started operating as a health center II many years ago and later was upgraded to a health center III due to increasing demands for its services by the local people. Currently, Kyarusozi Health Center III has further been promoted to a health center IV to meet the continuously increasing demand for healthcare services and based on the Community Health Needs Assessment. Kyarusozi Health Center IV aims to provide quality healthcare service delivery to all people within the surrounding community with equality and fairness from all backgrounds.
+          </p>
+          <p>BACKGROUND:<br>
+              Since its inception, Kyarusozi Health Center IV has been a cornerstone of the local community, providing comprehensive medical services, cutting-edge treatments, and compassionate care to patients from all walks of life. Founded on the principles of integrity, innovation, and excellence, the hospital has consistently adapted to meet the evolving needs of its patients and the broader healthcare landscape.
+          </p>
+          <!-- More content can be added here if needed -->
+      </div>
+
+      <!-- <div class="row-h2">
+          <h2>Amenities</h2>
+          <div class="row">
+              <div class="colum">
+                  <ul>
+                      <li>Hairdresser</li>
+                      <li>Outdoor Swimming Pool</li>
+                      <li>Spa</li>
+                      <li>24 hour Room Service</li>
+                      <li>24 hour Porterage</li>
+                      <li>Foreign Exchange Services</li>
+                      <li>Dry Cleaning Service</li>
+                      <li>WiFi Internet</li>
+                  </ul>
+              </div>
+              <div class="colum">
+                  <ul>
+                      <li>On Site Restaurant</li>
+                      <li>Sauna/Steam Room</li>
+                      <li>Broadband Internet Access</li>
+                      <li>24 hour Reception</li>
+                      <li>Disabled Access Rooms</li>
+                      <li>Interconnecting Rooms</li>
+                      <li>Non-Smoking Property</li>
+                      <li>Café</li>
+                  </ul>
+              </div>
+          </div>
+      </div>  
+  </div>
+  
+   -->
+
+
+
+
+<style>.expert .content
+  {
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: lightblue;
+  
+  
+  
+  }
+  
+  .expert .content .box
+  {
+    width: 250px;
+    margin: 5px;
+    border-radius: 20px;
+    
+  }
+  
+  .expert .content .box .imgBx
+  {
+    position: relative;
+    width: 100%;
+    height: 320px;
+  }
+  
+  .expert .content .box .imgBx img
+  {
+    max-width: 100%;
+    width: 100%;
+    height: 80%;
+  }
+  
+  .expert .content .box .text
+  {
+    padding: 2px 0 2px;
+  }
+  
+  .expert .content .box .text h3
+  {
+    font-weight: 400px;
+    color: white;
+  }
+  
+
+  .testimonials .content
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2px;
+    border-radius: 20px;
+  }
+  
+  .testimonials .content .box
+  {
+    width: 380px;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .testimonials .content .box .imgBx img
+  {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .testimonials .content .box .text p
+  {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .testimonials .content .box .text h3
+  {
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #ff0157;
+    font-weight: 600;
+  }
+/*    
+  End of testimonials................................................. */
+  
+
+  
+	</style>
+
+	<!-- <section class="expert" id="expert"> -->
+		<section class="expert" id="expert">
+			<div class="title white">
+				<h2 class="titleText" style="color: orangered; margin-left: 30%; font-size: 35px; ">Our Expert Staff</h2>
+				<p style="color: white; font-size: 25px;">Meet our dedicated healthcare professionals who bring their expertise and passion to every patient.</p>
+			</div>
+			<div class="content">
+				<div class="box">
+					<div class="imgBx">
+						<img src="image/office2.jpg" alt="">
+					</div>
+					<div class="text">
+						<h3>Dr. Jane Doe</h3>
+						<p>Head Physician</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="image/office3.jpg" alt="">
+					</div>
+					<div class="text">
+						<h3>Dr. Patrick Atugonza</h3>
+						<p>Paediatrician</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="image/office6.jpeg" alt="">
+					</div>
+					<div class="text">
+						<h3>Dr.Jane ruth</h3>
+						<p>Obstetrician-Gynecologist</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgBx">
+						<img src="image/office4.jpg" alt="">
+					</div>
+					<div class="text">
+						<h3>Dr. Justine Matove</h3>
+						<p>Medical Director</p>
+					</div>
+				</div>
+			
+			</div>
+			
+		</section>
+</main>
+		
+
+<!-- 	
+	<section class="testimonials" id="testimonials">
+
+		<div class="title">
+			<h2 class="titleText" style=" font-size: 35px; margin-left: 30%;" >Testimonials</h2>
+			<p style="font-size: 25px; color: white;">Read what our patients have to say about us.</p>
+		</div>
+	
+		<div class="content">
+	
+			<div class="box">
+				<div class="col-3">
+					<img src="image/user (1).jpg" alt="" style="border-radius: 10px; width: 370px">
+					<h3>Katusiime Alen</h3>
+					<p style="color: white;">
+						"I am incredibly grateful for the exceptional care I received at Kyarusozi Health Center IV. The doctors and staff went above and beyond to ensure my well-being. I highly recommend their services."
+					</p>
+					<i class="fa fa-quote-left" style="color: orange;"></i>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+	
+			<div class="box">
+				<div class="col-3">
+					<img src="image/user (2).jpg" alt="" style="border-radius: 20px; width: 370px">
+					<h3>Musinguzi Joel</h3>
+					<p style="color: white;">
+						"I have been a patient at Kyarusozi Health Center IV for years, and I have always been impressed by the professionalism and compassion of the staff. They truly care about their patients' well-being."
+					</p>
+					<i class="fa fa-quote-left" style="color: orange;"></i>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+	
+			<div class="box">
+				<div class="col-3">
+					<img src="image/user_4.png" alt="" style="border-radius: 20px; width: 370px;">
+					<h3>Sarah Williams</h3>
+					<p style="color: white;">
+						"The healthcare professionals at Kyarusozi Health Center IV are top-notch. They provided me with personalized care and support throughout my treatment journey. I couldn't have asked for a better experience."
+					</p>
+					<i class="fa fa-quote-left" style="color: orange;"></i>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+	
+		</div> -->
+	
+	</section>
+</main>	
+		
+
+
+   <!-- -------------------------footer-------------------------------------- -->
+ 
+	<!-- --------------------footer-------------------------------------------- -->
+  <div class="row1">
+    <h2>FOLLOW US</h2>
+      <img src="image/icons8-instagram-45.png">
+  <img src="image/icons8-twitter-40.png">
+  <img src="image/icons8-facebook-45.png">
+      <img src="image/icons8-linkedin-45.png">
+     
+  </div>
+ 
+  <div class="footer">
+  <div class="footer2">
+  
+  <div class="column">
+  
+      <img src="image/mestillogo.PNG" style="height: 100px; width: 150px;">
+     
+   <h5 style="align-content: start;">
+    <p>
+      <a href="index.html" >HOME</a><br>
+      <a href="patient_resources.html" class="active">PATIENT RESOURCES</a>
+  <a href="Ourservice.html">SERVICES</a><br>
+  <a href="Rooms.html">ACCOMMODATION</a><br>
+  <a href="GALLERY.html">GALLERY</a><br>
+  <a href="Contactus.html">CONTACT US</a><br>
+  <a href="About.html">ABOUT US</a>
+  </p>
+   </h5>
+  </div>
+  <div class="column">
+  <h5 style="font-size: 20px; color: orangered;">KYARUSOZI HEALTH CENTER IV aims to solve your health issues</h5>
+  <h5 style="font-size: 20px; color: white;">It started operating as a health center II some many years ago and later on was upgraded to a health center III after realizing the increasing demands for the facility services by the local people.</h5>
+  
+      </div>
+  <div class="column">
+  <h4 style="font-size: 24px; color: orangered;">Iprovement</h4>
+  <h5 style="font-size: 20px; color: white;">. Currently, Kyarusozi Health Center III has further been promoted to a health center IV due to the continuously increasing demand for health care services and also based on the community Health Needs Assessment.</h5>
+      </div>
+  <div class="column">
+      <h5 style="font-size: 20px; color: white;">
+        KYARUSOZI HEALTH CENTER IV <br>
+     KYARUSOZI TOWN COUNCIL<br>
+     KYENJOJO DISTRICT, KAMPALA<br>
+      UGANDA<br>
+      TEL +256 313 243 001</h5>
+  </div>
+  </div>
+  
+  <div class="footer2">
+  
+  
+  
+      <div class="ft-4">
+  
+        <div class="ft-3">
+            <p style="font-size: 20px;">© Copyright Kyarusozi Kealth center IV. All Rights Reserved</p>
+            <p style="font-size: 18px;">Designed by <a href="#">BUSINGE CLAIRE</a></p>
+        </div>
+  
+        <div class="ft-5">
+          <h5 style="font-size: 20PX; color: red;"> FOR INQUIRIES</h5>
+          <a href="Contactus.html">info@kyaruthcteriv .com</a>
+           
+        </div>
+  
+    </div>
+  
+  </footer>
+  
+  </body>
+  </html>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+  
+      
+      <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+  </body>
+  </html>
+  
+  
